@@ -11,6 +11,7 @@ while t >= 0:
 	num = int(num)
 	if num == r:
 		print('終於猜對了！')
+		print('你已經猜了', t, '次')
 		break
 	elif num > r:
 		print('比答案大')
