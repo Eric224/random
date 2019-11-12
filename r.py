@@ -1,5 +1,9 @@
 import random
-r = random.randint(1,100)
+x_min = input('請輸入最小值： ')
+y_max = input('請輸入最大值： ')
+x_min = int(x_min)
+y_max = int(y_max)
+r = random.randint(x_min, y_max)
 t = 0
 while t >= 0:
 	t = t + 1
