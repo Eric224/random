@@ -7,7 +7,6 @@ r = random.randint(x_min, y_max)
 t = 0
 while t >= 0:
 	t = t + 1
-	print('第', t, '次猜數字')
 	num = input('請猜數字： ')
 	num = int(num)
 	if num == r:
@@ -17,3 +16,4 @@ while t >= 0:
 		print('比答案大')
 	elif num < r:
 		print('比答案小')
+	print('你已經猜了', t, '次')
